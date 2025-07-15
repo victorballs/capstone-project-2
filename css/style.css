@@ -1,0 +1,200 @@
+@font-face{
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.top-container{
+    position: relative;
+    height: 90vh;
+    background: linear-gradient(300deg, #000000, #141a63);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin-top: -90px;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+}
+
+#name{
+  font-family: 'raleway';
+  color: white;
+  font-size: 5.6rem;
+  padding-top: 250px;
+}
+
+#tiny{
+  font-family: 'raleway';
+  color: white;
+  font-size: 2rem;
+}
+
+.tiny-text{
+  margin-top: -45px;
+}
+
+.picture{
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+}
+
+.picture-container{
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.hello{
+  font-family: 'raleway';
+  font-size: 30px;
+}
+
+.description{
+  font-family: 'raleway';
+  margin: auto;
+  width: 25%;
+}
+
+hr {
+  border:dotted #eaf6f6 8px;
+  border-bottom: none;
+  width: 3%;
+  margin: 100px auto;
+}
+
+.mid-container{
+  position: relative;
+}
+
+.coding{
+  margin-bottom: 10px;
+  width: 90%;
+  text-align: left;
+}
+
+.game-text{
+  text-align: left;
+}
+
+.skills-first-text{
+  font-size: 40px;
+}
+
+.parent{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+#funciona1{
+  text-align: left;
+}
+
+#funciona2{
+  text-align: left;
+}
+
+.skills{
+  font-family: 'raleway';
+}
+
+#images{
+  width: 250px;
+}
+
+h3{
+  font-family: 'raleway';
+  text-align: center;
+}
+
+h2{
+  font-family: 'raleway';
+  text-align: center;
+}
+
+.contact-me{
+  font-family: 'raleway';
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 140px;
+  gap: 20px;
+}
+
+.entre{
+  font-size: 35px;
+}
+
+#button{
+  background: #141a63;
+  background-image: -webkit-linear-gradient(top, #141a63, #000000);
+  background-image: -moz-linear-gradient(top, #141a63, #000000);
+  background-image: -ms-linear-gradient(top, #141a63, #000000);
+  background-image: -o-linear-gradient(top, #141a63, #000000);
+  background-image: linear-gradient(to bottom, #141a63, #141a45);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "raleway";
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 105px;
+  margin: auto;
+}
+
+#button:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  text-decoration: none;
+}
+
+.bot-container{
+  position: relative;
+  height: 20vh;
+  background: linear-gradient(300deg, #000000, #141a63);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-family: 'raleway';
+  color: white;
+  padding-top: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: #4a4b51;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+
+
+
+
+
+
+
